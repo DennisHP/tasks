@@ -5,7 +5,7 @@ import { destoyUser, getUser, getUsers, saveUser, updateUser } from './controlle
 const routes = Router()
 
 routes.get('/', (request: Request, response: Response) => {
-    return response.json({ message :  'hello World 2!'})
+    return response.json({ message :  'hello World'})
 })
 
 routes.get('/users', getUsers);
